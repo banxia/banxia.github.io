@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="HandheldFriendly" content="True" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="generator" content="Hugo 0.68.3" />
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/amzrk2/poal-jsdelivr/amzrk2/favicons/favicon.ico">
+
+
+<title>Fuji Demo - This is a Sub Title</title>
+
+<meta name="author" content="DSRKafuU">
+<meta name="description" content="A minimal hugo theme powered by Primer CSS.">
+
+
+
+<meta property="og:title" content="Fuji Demo" />
+<meta property="og:description" content="A minimal hugo theme powered by Primer CSS." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://example.com/" />
+<meta property="og:image" content="https://example.com/img/og.png"/>
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/img/og.png"/>
+
+<meta name="twitter:title" content="Fuji Demo"/>
+<meta name="twitter:description" content="A minimal hugo theme powered by Primer CSS."/>
+
+
+
+
+
+
+<link rel="stylesheet" href="https://example.com/css/main.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js"></script>
+
+
+<body class="d-flex flex-column h-100">
+    <header>
+    
+    <div class="container-lg clearfix">
+        <div class="col-12 p-3">
+            <a id="main-title" href="https://example.com">Fuji Demo</a>
+            <span id="sub-title">This is a Sub Title</span>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <div class="container-lg clearfix">
+            
+            <div class="col-md-9 col-12 float-left" id="content">
+                
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            
+            <div class="col-md-3 col-12 float-left" id="sidebar">
+                <div id="widget-pages">
+    <h5>Pages</h5>
+    <ul>
+        
+        
+        <li>
+            <a href="/">Home</a>
+        </li>
+        
+        <li>
+            <a href="/archives/">Archives</a>
+        </li>
+        
+        <li>
+            <a href="/about/">About</a>
+        </li>
+        
+    </ul>
+</div>
+<div id="widget-tags">
+    <h5>Tags</h5>
+    <div>
+        
+    </div>
+</div>
+<div id="widget-links">
+    <h5>Links</h5>
+    <ul>
+        
+        <li>
+            <a href="https://github.com/amzrk2" target="_blank"><span>GitHub</span></a>
+        </li>
+        
+        <li>
+            <a href="https://space.bilibili.com/19767474" target="_blank"><span>bilibili</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+            </div>
+            <div id="container-progress">
+                <div id="progress"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    <div class="container-lg text-center">
+        <p>
+            &copy; 2020 <a href="https://example.com">DSRKafuU</a> |
+            Powered by <a href="https://github.com/amzrk2/hugo-theme-fuji/" target="_blank">Fuji</a>
+            & <a href="https://gohugo.io/" target="_blank">Hugo</a> 
+        </p>
+    </div>
+</footer>
+    
+
+
+
+<script>
+    $(function () {
+        var bar = new ProgressBar.Circle('#progress', {
+            color: '#8AA2D3',
+            strokeWidth: 12,
+            trailColor: '#E5E2E4',
+            trailWidth: 12,
+            text: {
+                value: '\x3csvg aria-hidden=\x22true\x22 focusable=\x22false\x22 data-prefix=\x22fas\x22 data-icon=\x22angle-up\x22 class=\x22svg-inline--fa fa-angle-up fa-w-10\x22 role=\x22img\x22 xmlns=\x22http:\/\/www.w3.org\/2000\/svg\x22 viewBox=\x220 0 320 512\x22\x3e\x3cpath fill=\x22currentColor\x22 d=\x22M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\x22\x3e\x3c\/path\x3e\x3c\/svg\x3e',
+                autoStyleContainer: false,
+                style: null
+            },
+            fill: '#E5E2E4'
+        });
+        var scrolled = ($(window).scrollTop() / ($(document).height() - $(window).height() - 1));
+        bar.animate(scrolled);
+        $(window).scroll(function () {
+            scrolled = ($(window).scrollTop() / ($(document).height() - $(window).height() - 1));
+            if (scrolled < 0.0005) {
+                scrolled = 0;
+            } else if (scrolled > 1) {
+                scrolled = 1;
+            }
+            bar.set(scrolled);
+        });
+    });
+    $('#container-progress').click(function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 'slow');
+        return false;
+    });
+</script>
+
+
+<script>
+    $(function () {
+        var lazyLoadInstance = new LazyLoad({
+            elements_selector: ".lazy"
+        });
+    });
+</script>
+</body>
+
+</html>
