@@ -1,0 +1,12 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>半夏 | 半夏</title>
+        <link>https://banxia.github.io/</link>
+        <description>半夏 | 半夏</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 21 Apr 2020 22:35:18 &#43;0800</lastBuildDate><atom:link href="https://banxia.github.io/" rel="self" type="application/rss+xml" /><item>
+                <title>Posts</title>
+                <link>https://banxia.github.io/posts/</link>
+                <pubDate>Tue, 21 Apr 2020 22:35:18 &#43;0800</pubDate><guid>https://banxia.github.io/posts/</guid>
+                <description></description>
+            </item></channel>
+</rss>
