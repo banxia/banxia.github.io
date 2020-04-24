@@ -2,12 +2,14 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://banxia.github.io/categories/</loc><lastmod>2020-04-22T00:00:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://banxia.github.io/categories/</loc><lastmod>2020-04-24T14:07:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://banxia.github.io/posts/</loc><lastmod>2020-04-24T14:07:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://banxia.github.io/tags/</loc><lastmod>2020-04-24T14:07:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://banxia.github.io/tags/vscode/</loc><lastmod>2020-04-24T14:07:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://banxia.github.io/vscode-edit-mutil/</loc><lastmod>2020-04-24T14:07:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://banxia.github.io/</loc><lastmod>2020-04-24T14:07:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://banxia.github.io/categories/%E6%9D%82%E8%AE%B0/</loc><lastmod>2020-04-24T14:07:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://banxia.github.io/tags/git/</loc><lastmod>2020-04-22T00:00:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://banxia.github.io/posts/</loc><lastmod>2020-04-22T00:00:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://banxia.github.io/tags/</loc><lastmod>2020-04-22T00:00:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://banxia.github.io/make_effective_gitignore/</loc><lastmod>2020-04-22T00:00:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://banxia.github.io/</loc><lastmod>2020-04-22T00:00:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://banxia.github.io/categories/%E6%9D%82%E8%AE%B0/</loc><lastmod>2020-04-22T00:00:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://banxia.github.io/no_update_homebrew_while_install/</loc><lastmod>2020-04-22T00:00:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://banxia.github.io/tags/mac-os/</loc><lastmod>2020-04-22T00:00:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

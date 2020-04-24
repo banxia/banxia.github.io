@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vscode on 半夏</title>
+    <link>https://banxia.github.io/tags/vscode/</link>
+    <description>Recent content in vscode on 半夏</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 24 Apr 2020 14:07:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://banxia.github.io/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vscode如何实现同时编辑多行代码</title>
+      <link>https://banxia.github.io/vscode-edit-mutil/</link>
+      <pubDate>Fri, 24 Apr 2020 14:07:43 +0800</pubDate>
+      
+      <guid>https://banxia.github.io/vscode-edit-mutil/</guid>
+      <description>重命名变量 首先看看自己需要同时修改多处的代码是不是要重命名一个变量，如果是的话，有现成的快捷键f2。选中一个变量，按f2，弹出一个小窗口，在</description>
+    </item>
+    
+  </channel>
+</rss>

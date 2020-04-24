@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 21 Apr 2020 23:56:57 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 14:07:43 +0800</lastBuildDate>
     
 	<atom:link href="https://banxia.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>vscode如何实现同时编辑多行代码</title>
+      <link>https://banxia.github.io/vscode-edit-mutil/</link>
+      <pubDate>Fri, 24 Apr 2020 14:07:43 +0800</pubDate>
+      
+      <guid>https://banxia.github.io/vscode-edit-mutil/</guid>
+      <description>重命名变量 首先看看自己需要同时修改多处的代码是不是要重命名一个变量，如果是的话，有现成的快捷键f2。选中一个变量，按f2，弹出一个小窗口，在</description>
+    </item>
     
     <item>
       <title>使gitignore文件生效</title>
